@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+.pic1{
+    width:800px;
+    height:350px;
+}
+.www{
+    font-size: 27px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.top{
+    margin-top: 85px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+}
+.top a{
+    color:rgb(104, 104, 104);
+    
+}
+.main{
+    margin-left: 160px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+.second{
+    background-color:hsl(240, 100%, 5%) ;
+    color:white;
+    width:370px;
+    height: 430px;
+    margin-left: 80px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+.first{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.new{
+    color:hsl(35, 77%, 62%);
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.topic{
+    margin-top: 20px;
+    margin-left: 18px;
+    font-size: 20px;
+}
+.text{
+    margin-left: 18px;
+    margin-top: 10px;
+}
+hr{
+    margin-top: 25px;
+    width:320px;
+    margin-left: 18px;
+}
+.big{
+    font-size: 75px;
+    margin-top: -40px; 
+}
+.third{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.smalltext{
+    margin-left: 60px;
+}
+.small{
+    font-size: 18px;
+    margin-top: -15px;
+    line-height: 27px;
+    color: rgb(95, 94, 94);
+}
+button{
+    background-color: hsl(5, 85%, 63%);
+    width:170px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.zerone{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.img{
+    width:90px;
+}
+.img2{
+    width:90px;
+    margin-left: 200px;
+}
+.forth{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.import{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.orange{
+    color:hsl(5, 85%, 63%);
+    margin-left: 70px;
+}
+.black{
+    margin-left: 70px;
+}
+.what{
+    margin-left: 70px;
+}
+.zerone nth
